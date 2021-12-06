@@ -102,7 +102,7 @@ class MainPage extends Component {
                                             src={property.thumbnail}
                                             bedrooms={property.beds}
                                             bathrooms={property.baths}
-                                            email={this.props.user.email}
+                                            // email={this.props.user.email}
                                             property_id={property.property_id}
                                             // sqft={property.building_size.size}
                                         />
